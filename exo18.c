@@ -1,4 +1,4 @@
-// Calcul et afficha de PGCD de deux entiers
+// Calcul et affichage de PGCD de deux entiers
 #include <stdio.h>
 int main ()
 {
