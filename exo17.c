@@ -11,7 +11,7 @@ int main ()
     for (i=1;i<=n;i++)
     {
         f = f * i; // Calcul du factoriel
-        s = s + 1.0/f; // Calcul de la somme
+        s = s + (float)(1/f); // Calcul de la somme
     }
     printf("La somme s=%f \n",s);
     return (0);
