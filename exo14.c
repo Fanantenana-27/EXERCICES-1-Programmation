@@ -9,7 +9,7 @@ int main ()
     somme = 0;
     for (i=1;i<=n;i++)
     {
-        somme = somme + 1.0/i;
+        somme = somme + (float)(1/i);
     }
     printf("La somme de 1/1 jusq\'à 1/%d est : %f\n",n,somme);
     return (0);
